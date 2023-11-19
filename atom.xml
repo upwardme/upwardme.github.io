@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-07-24T12:45:50.281Z</updated>
+  <updated>2023-11-19T07:51:12.723Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>阿里云主机SSL证书到期快速更换</title>
+    <link href="http://example.com/2023/11/19/article4/"/>
+    <id>http://example.com/2023/11/19/article4/</id>
+    <published>2023-11-19T07:29:43.000Z</published>
+    <updated>2023-11-19T07:51:12.723Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;阿里云主机SSL证书到期快速更换&quot;&gt;&lt;a href=&quot;#阿里云主机SSL证书到期快速更换&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="文章" scheme="http://example.com/categories/%E6%96%87%E7%AB%A0/"/>
+    
+    
+    <category term="实践" scheme="http://example.com/tags/%E5%AE%9E%E8%B7%B5/"/>
+    
+  </entry>
   
   <entry>
     <title>选择</title>

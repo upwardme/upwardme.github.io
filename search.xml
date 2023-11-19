@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>阿里云主机SSL证书到期快速更换</title>
+      <link href="/2023/11/19/article4/"/>
+      <url>/2023/11/19/article4/</url>
+      
+        <content type="html"><![CDATA[<h2 id="阿里云主机SSL证书到期快速更换"><a href="#阿里云主机SSL证书到期快速更换" class="headerlink" title="阿里云主机SSL证书到期快速更换"></a>阿里云主机SSL证书到期快速更换</h2><p>现在阿里云免费的SSL证书一年为20个，到期清除的是申请已使用/申请未使用，不包含未申请的剩余个数。</p><p>我们可以直接在SSL证书免费证书中使用未申请的个数，创建新的证书。</p><p><img src="/2023/11/19/article4/img7.png"></p><p>创建完后点击后边的申请，填写需要配置的域名 （如：<a href="http://www.coolku.cc),其他的都不用改./">www.coolku.cc)，其他的都不用改。</a></p><p>点击下一步直接验证就行，验证不成功的话需手动配置一下（一般不用重新配置）。</p><p>最后点击提交即可。</p><p>接着在CDN管理控制台中，证书服务中配置证书。</p><p><img src="/2023/11/19/article4/img8.png"></p><p>选择云盾（SSL）证书中心，在证书名称中选择刚申请的证书。</p><p>点击下一步，选择配置的域名，（可能需要把域名选中后点击向右的箭头移向右边）提交完成即可。</p><p>最后点击配置证书最右边的刷新按钮，即可显示最新的到期日期。</p><p>重新访问网站https恢复正常。</p><p>SSL证书处的状态和已部署状态可能不会有变化，这个没有什么影响。</p><p><img src="/2023/11/19/article4/img9.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 文章 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 实践 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>选择</title>
       <link href="/2021/07/14/article3/"/>
       <url>/2021/07/14/article3/</url>
