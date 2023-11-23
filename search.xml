@@ -4,11 +4,36 @@
   
     
     <entry>
+      <title>使用Windows照片更改图片格式</title>
+      <link href="/2023/11/23/article5/"/>
+      <url>/2023/11/23/article5/</url>
+      
+        <content type="html"><![CDATA[<p>有时候需要展示的图片因为格式不同而不能正常显示，当然转换方法也有很多，这里介绍两种简单Windows自带的快捷方法。</p><h2 id="Windows画图"><a href="#Windows画图" class="headerlink" title="Windows画图"></a>Windows画图</h2><p>打开画图工具，点击左上角文件，选择另存为，就可以更改图片格式。</p><h2 id="Windows照片"><a href="#Windows照片" class="headerlink" title="Windows照片"></a>Windows照片</h2><p>选择图片打开方式为照片，点击上方三个小点，选择另存为，即可快速更改。</p><p><img src="/2023/11/23/article5/img8.png"><br><img src="/2023/11/23/article5/img9.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 文章 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 实践 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>WordPress站点迁移至Hexo</title>
       <link href="/2023/11/19/article4/"/>
       <url>/2023/11/19/article4/</url>
       
-        <content type="html"><![CDATA[<h2 id="WordPress站点迁移至Hexo"><a href="#WordPress站点迁移至Hexo" class="headerlink" title="WordPress站点迁移至Hexo"></a>WordPress站点迁移至Hexo</h2><p>先在原WP站点下载站点数据</p><p><img src="/2023/11/19/article4/img7.jpeg"></p><p>接着安装 hexo-migrator-wordpress 插件</p><p>$ npm install hexo-migrator-wordpress –save</p><p>安装完成后执行下面的命令进行导入</p><p>hexo migrate wordpress wordpress wordpress.2023-11-23.xml #刚下载的文件名</p><p>导入完成后执行 hexo g 生成文件，hexo s 预览查看</p><p><a href="http://localhost:4000/">http://localhost:4000/</a></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="WordPress站点迁移至Hexo"><a href="#WordPress站点迁移至Hexo" class="headerlink" title="WordPress站点迁移至Hexo"></a>WordPress站点迁移至Hexo</h2><p>先在原WP站点下载站点数据</p><p><img src="/2023/11/19/article4/img7.jpeg"></p><p>接着安装 hexo-migrator-wordpress 插件</p><p>$ npm install hexo-migrator-wordpress –save</p><p>安装完成后执行下面的命令进行导入</p><p>hexo migrate wordpress wordpress.2023-11-23.xml #刚下载的文件名</p><p>导入完成后执行 hexo g 生成文件，hexo s 预览查看</p><p><a href="http://localhost:4000/">http://localhost:4000/</a></p>]]></content>
       
       
       <categories>
@@ -2236,7 +2261,7 @@
       <link href="/2021/07/14/article3/"/>
       <url>/2021/07/14/article3/</url>
       
-        <content type="html"><![CDATA[<h2 id="其一"><a href="#其一" class="headerlink" title="其一"></a>其一</h2><p><img src="/2021/07/14/article3/img4.jpg"></p><p>兜兜转转又三年，时间如白驹过隙，我也终究活成了自己讨厌的样子。<br>很多时候，我都会问自己，如果时间能重来一次，我会不会还是现在的样子。我陷入了沉思。<br>回想这些年的时光，哭过、笑过，有过对未来的憧憬，有过对现实的迷茫。而我又一次问自己，我究竟为此做了多少。是啊，不由得我苦笑一下…畏畏缩缩，懒散不前成为了我的标签。<br>曾几何时，我张开双臂拥抱大海，可如今却被海浪拍死在这沙滩上，直到现在我还常常不敢面对现实。<br>后边会怎样。此刻我也不知道，可能会越来越好，也可能会物是人非。这个世界上没有什么事情是绝对的，是错是对，是好是坏，又有谁说得清楚，唯一可以衡量的只有自己的内心。 </p><!-- ## 长风破浪会有时，直挂云帆济沧海。 --><h2 id="其二"><a href="#其二" class="headerlink" title="其二"></a>其二</h2><p><img src="/2021/07/14/article3/img5.jpg"></p><p>理想和现实使人迷茫</p><!-- ##  --><!-- ![](img6.jpg) -->]]></content>
+        <content type="html"><![CDATA[<h2 id="人生就是在成长中学习，在学习中成长。"><a href="#人生就是在成长中学习，在学习中成长。" class="headerlink" title="人生就是在成长中学习，在学习中成长。"></a>人生就是在成长中学习，在学习中成长。</h2><h2 id="其一"><a href="#其一" class="headerlink" title="其一"></a>其一</h2><p><img src="/2021/07/14/article3/img4.jpg"></p><p>兜兜转转又三年，时间如白驹过隙，我也终究活成了自己讨厌的样子。<br>很多时候，我都会问自己，如果时间能重来一次，我会不会还是现在的样子。我陷入了沉思。<br>回想这些年的时光，哭过、笑过，有过对未来的憧憬，有过对现实的迷茫。而我又一次问自己，我究竟为此做了多少。是啊，不由得我苦笑一下…畏畏缩缩，懒散不前成为了我的标签。<br>曾几何时，我张开双臂拥抱大海，可如今却被海浪拍死在这沙滩上，直到现在我还常常不敢面对现实。<br>后边会怎样。此刻我也不知道，可能会越来越好，也可能会物是人非。这个世界上没有什么事情是绝对的，是错是对，是好是坏，又有谁说得清楚，唯一可以衡量的只有自己的内心。 </p><h2 id="长风破浪会有时，直挂云帆济沧海。"><a href="#长风破浪会有时，直挂云帆济沧海。" class="headerlink" title="长风破浪会有时，直挂云帆济沧海。"></a>长风破浪会有时，直挂云帆济沧海。</h2><h2 id="其二"><a href="#其二" class="headerlink" title="其二"></a>其二</h2><p><img src="/2021/07/14/article3/img5.jpg"></p><p>理想和现实使人迷茫</p><p><img src="/2021/07/14/article3/img6.jpg"></p>]]></content>
       
       
       <categories>

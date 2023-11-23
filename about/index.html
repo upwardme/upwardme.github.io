@@ -101,11 +101,43 @@
   <li class="hide-on-med-and-down nav-item">
     
     <a href="/about" class="waves-effect waves-light">
+
       
       <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
       
       <span>关于</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
     </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/me">
+          
+          <i class="fas fa-user-circle" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>我？</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/about">
+          
+          <i class="fas fa-user-circle" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>本站</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/fe">
+          
+          <i class="fas fa-user-circle" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>交个朋友</span>
+        </a>
+      </li>
+      
+    </ul>
     
   </li>
   
@@ -160,15 +192,6 @@
           <i class="fas fa-film" style="margin-top: -20px; zoom: 0.6;"></i>
           
           <span>番剧</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/navigate">
-          
-          <i class="fas fa-location-arrow" style="margin-top: -20px; zoom: 0.6;"></i>
-          
-          <span>导航</span>
         </a>
       </li>
       
@@ -248,12 +271,46 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/about" class="waves-effect waves-light">
+		<a href="javascript:;">
 			
-			    <i class="fa-fw fas fa-user-circle"></i>
+				<i class="fa-fw fas fa-user-circle"></i>
 			
 			关于
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
 		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/me " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-user-circle" style="position: absolute;left:50px" ></i>
+			      
+		          <span>我？</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/about " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-user-circle" style="position: absolute;left:50px" ></i>
+			      
+		          <span>本站</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/fe " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-user-circle" style="position: absolute;left:50px" ></i>
+			      
+		          <span>交个朋友</span>
+                  </a>
+                </li>
+              
+            </ul>
           
         </li>
         
@@ -308,16 +365,6 @@
 				   <i class="fa fas fa-film" style="position: absolute;left:50px" ></i>
 			      
 		          <span>番剧</span>
-                  </a>
-                </li>
-              
-                <li>
-
-                  <a href="/navigate " style="margin-left:75px">
-				  
-				   <i class="fa fas fa-location-arrow" style="position: absolute;left:50px" ></i>
-			      
-		          <span>导航</span>
                   </a>
                 </li>
               
@@ -464,7 +511,7 @@
                     <div class="post-statis col l4 hide-on-med-and-down" data-aos="zoom-in-right">
                         
 <div class="statis">
-    <span class="count"><a href="/">211</a></span>
+    <span class="count"><a href="/">212</a></span>
     <span class="name">文章</span>
 </div>
 
@@ -494,7 +541,7 @@
                                 <div class="post-statis hide-on-large-only" data-aos="zoom-in-right">
                                     
 <div class="statis">
-    <span class="count"><a href="/">211</a></span>
+    <span class="count"><a href="/">212</a></span>
     <span class="name">文章</span>
 </div>
 
@@ -660,7 +707,7 @@
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [3,2,2,4,2,2,0,0,0,0,0,0,1],
+                data: [3,2,2,4,2,2,0,0,0,0,0,0,2],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -702,7 +749,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"文章","value":4},{"name":"转载","value":6},{"name":"uncategorized","value":60},{"name":"教程","value":58},{"name":"实践","value":51},{"name":"兴趣","value":10},{"name":"学习","value":41},{"name":"游戏","value":1},{"name":"其他","value":6},{"name":"公益","value":2},{"name":"下载","value":1}],
+                data: [{"name":"文章","value":5},{"name":"转载","value":6},{"name":"uncategorized","value":60},{"name":"教程","value":58},{"name":"实践","value":51},{"name":"兴趣","value":10},{"name":"学习","value":41},{"name":"游戏","value":1},{"name":"其他","value":6},{"name":"公益","value":2},{"name":"下载","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -1561,6 +1608,30 @@
             </div>
         </div>
         
+        <div class="photo col s12 m6 l4" data-aos="fade-up">
+            <div class="img-item" data-src="/medias/featureimages/24.jpg">
+                <img src="/medias/featureimages/24.jpg" class="responsive-img">
+            </div>
+        </div>
+        
+        <div class="photo col s12 m6 l4" data-aos="fade-up">
+            <div class="img-item" data-src="/medias/featureimages/25.jpg">
+                <img src="/medias/featureimages/25.jpg" class="responsive-img">
+            </div>
+        </div>
+        
+        <div class="photo col s12 m6 l4" data-aos="fade-up">
+            <div class="img-item" data-src="/medias/featureimages/42.jpg">
+                <img src="/medias/featureimages/42.jpg" class="responsive-img">
+            </div>
+        </div>
+        
+        <div class="photo col s12 m6 l4" data-aos="fade-up">
+            <div class="img-item" data-src="/medias/featureimages/47.jpg">
+                <img src="/medias/featureimages/47.jpg" class="responsive-img">
+            </div>
+        </div>
+        
         
     </div>
 </div>
@@ -1703,7 +1774,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">57.1k</span>&nbsp;字
+                class="white-color">57.2k</span>&nbsp;字
             
             
             
@@ -1802,7 +1873,7 @@
             <span class="badge-subject">PV</span><span class="badge-value bg-brightgreen" id="busuanzi_value_site_pv"></span>
           </div>
           <div class="github-badge">
-            <span class="badge-subject">WordCount</span><span class="badge-value bg-blueviolet">57.1k</span>
+            <span class="badge-subject">WordCount</span><span class="badge-value bg-blueviolet">57.2k</span>
           </div>
 </div-->
 <style>
