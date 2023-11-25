@@ -608,7 +608,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2023-11-21
+                    2023-11-25
                 </div>
                 
 
@@ -643,23 +643,23 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Hexo 是一款基于 Node.js ，快速、简洁且高效的博客框架，使用 Markdown（或其他渲染引擎）解析文章，在几秒内即可利用靓丽的主题生成静态网页。</p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2021/04/QQ%E6%88%AA%E5%9B%BE20210401124541-1024x299.png"></p>
+<p><img src="/2021/11/25/chao-xiang-xi-hexogithub-da-jian-ge-ren-bo-ke-wang-zhan-yi/img140.png"></p>
 <p>通过GitHub部署托管网站，不需要域名及服务器即可拥有自己的网站，是不是很方便。（当然你想通过域名访问也是可以的）</p>
 <h2 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h2><p>安装hexo的前提是下载好node和Git。注意：以Windows为例。</p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2021/04/QQ%E6%88%AA%E5%9B%BE20210401125608-1024x535.png"></p>
+<p><img src="/2021/11/25/chao-xiang-xi-hexogithub-da-jian-ge-ren-bo-ke-wang-zhan-yi/img141.png"></p>
 <p>Git下载地址：<a target="_blank" rel="noopener" href="https://git-scm.com/">https://git-scm.com/</a><br>node下载地址：<a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn/">https://nodejs.org/zh-cn/</a></p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2021/04/QQ%E6%88%AA%E5%9B%BE20210401125542.png"></p>
+<p><img src="/2021/11/25/chao-xiang-xi-hexogithub-da-jian-ge-ren-bo-ke-wang-zhan-yi/img142.png"></p>
 <p>通过官网下载可能会很慢，甚至出现断线情况，也可使用淘宝镜像进行下载。</p>
 <p>Git淘宝镜像地址：<a target="_blank" rel="noopener" href="https://npm.taobao.org/mirrors/git-for-windows/">https://npm.taobao.org/mirrors/git-for-windows/</a><br>node淘宝镜像地址：<a target="_blank" rel="noopener" href="https://npm.taobao.org/mirrors/npm/">https://npm.taobao.org/mirrors/npm/</a></p>
 <p>或通过cmd命令下载<br>npm install cnpm -g –registry=<a target="_blank" rel="noopener" href="https://registry.npm.taobao.org/">https://registry.npm.taobao.org</a></p>
 <p>下载之后通过cmd测试是否下载成功。通过cmd命令下载的测试要加c（cnpm）。</p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2021/04/QQ%E6%88%AA%E5%9B%BE20210408174842.png"></p>
+<p><img src="/2021/11/25/chao-xiang-xi-hexogithub-da-jian-ge-ren-bo-ke-wang-zhan-yi/img143.png"></p>
 <p>node -v<br>npm -v<br>git –version</p>
 <p>Git和node安装一路默认即可。</p>
 <h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><p>首先在合适盘符下新建一个文件夹，名字自己起，例如blog。</p>
 <p>在blog文件夹下，按住shift键，右击鼠标点击命令行右键打开命令窗口（cd到指定文件夹），或右键点击Git Bash Here，输入如下命令进行安装。以下都是通过Git安装。</p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2021/04/QQ%E6%88%AA%E5%9B%BE20210401133453.png"></p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2021/04/QQ%E6%88%AA%E5%9B%BE20210401134533.png"></p>
+<p><img src="/2021/11/25/chao-xiang-xi-hexogithub-da-jian-ge-ren-bo-ke-wang-zhan-yi/img144.png"></p>
+<p><img src="/2021/11/25/chao-xiang-xi-hexogithub-da-jian-ge-ren-bo-ke-wang-zhan-yi/img145.png"></p>
 <p>$ npm install -g hexo-cli</p>
 <p>安装完成后输入如下命令进行验证。</p>
 <p>$ hexo -v</p>
@@ -671,22 +671,22 @@
 <p>至此网站雏形基本建成，输入如下命令即可本地预览，</p>
 <p>$ hexo server</p>
 <p>在浏览器中访问<a target="_blank" rel="noopener" href="http://localhost:4000/%E5%8D%B3%E5%8F%AF%E9%A2%84%E8%A7%88%E3%80%82%E5%91%BD%E4%BB%A4%E7%AA%97%E5%8F%A3%E4%B8%8D%E8%83%BD%E5%85%B3%E9%97%AD%EF%BC%8C%E5%90%A6%E5%88%99%E4%B8%8D%E8%83%BD%E9%A2%84%E8%A7%88%E3%80%82">http://localhost:4000/即可预览。命令窗口不能关闭，否则不能预览。</a></p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2021/04/srchttp___upload-images.jianshu.io_upload_images_5265195-39951abf0b4599dd.png_imageMogr2_auto-orient_strip7CimageView2_2_w_1240referhttp___upload-images.jianshu-1024x524.jpg"></p>
+<p><img src="/2021/11/25/chao-xiang-xi-hexogithub-da-jian-ge-ren-bo-ke-wang-zhan-yi/img146.jpg"></p>
 <p>到这恭喜你，安装成功了。</p>
 <h2 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h2><p>上边的主题是不是不好看，哈哈哈我觉得是。但是hexo提供很多主题可进行选择。通过主题官网进行查找<a target="_blank" rel="noopener" href="https://hexo.io/themes/">https://hexo.io/themes/</a></p>
 <p>这里推荐两个主题，经常浏览到此主题的网站，个人觉得挺漂亮的。</p>
 <p>主题1：Butterfly<br>主题2：matery</p>
 <p>关于主题更多信息请至官网浏览。</p>
 <h2 id="下载主题"><a href="#下载主题" class="headerlink" title="下载主题"></a>下载主题</h2><p>找到喜欢的主题，点击图片是预览，点击名字是地址。复制GitHub地址即可。</p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2021/04/QQ%E6%88%AA%E5%9B%BE20210401143143-1024x436.png"></p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2021/04/QQ%E6%88%AA%E5%9B%BE20210401143245.png"></p>
+<p><img src="/2021/11/25/chao-xiang-xi-hexogithub-da-jian-ge-ren-bo-ke-wang-zhan-yi/img147.png"></p>
+<p><img src="/2021/11/25/chao-xiang-xi-hexogithub-da-jian-ge-ren-bo-ke-wang-zhan-yi/img148.png"></p>
 <p>Git输入如下命令。</p>
 <p>git clone Github主题地址&nbsp;themes/文件名</p>
 <p>文件名自己起，例如：</p>
 <p>$ git clone <a target="_blank" rel="noopener" href="https://github.com/blinkfox/hexo-theme-matery">https://github.com/blinkfox/hexo-theme-matery</a> themes/next</p>
 <p>完成后站点的themes目录下， 会有一个next文件夹。</p>
 <p>接着配置_config.yml，修改theme，改成上面的那个文件名next。</p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2021/04/QQ%E6%88%AA%E5%9B%BE20210401144304.png"></p>
+<p><img src="/2021/11/25/chao-xiang-xi-hexogithub-da-jian-ge-ren-bo-ke-wang-zhan-yi/img149.png"></p>
 <p>修改后保存后，重新输入命令$ hexo server，浏览器打开<a target="_blank" rel="noopener" href="http://localhost:4000/%E5%8D%B3%E5%8F%AF%E9%A2%84%E8%A7%88%E5%AE%89%E8%A3%85%E7%9A%84%E4%B8%BB%E9%A2%98%E3%80%82">http://localhost:4000/即可预览安装的主题。</a></p>
 
                 
@@ -887,10 +887,10 @@
                         <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
                     </ul>
                     <div id="alipay">
-                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="/medias/reward/das.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                     <div id="wechat">
-                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                        <img src="/medias/reward/das.jpg" class="reward-img" alt="微信打赏二维码">
                     </div>
                 </div>
             </div>
@@ -1199,13 +1199,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/12/04/download-1314-file-version/">
+                <a href="/2021/12/05/wordpress-wang-zhan-ping-lun-tong-zhi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="Download">
+                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="WordPress网站评论通知">
                         
-                        <span class="card-title">Download</span>
+                        <span class="card-title">WordPress网站评论通知</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1216,19 +1216,31 @@
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-12-04
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-12-05
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/uncategorized/" class="post-category">
-                                    uncategorized
+                            <a href="/categories/%E5%AE%9E%E8%B7%B5/" class="post-category">
+                                    实践
                                 </a>
                             
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/WordPress/">
+                        <span class="chip bg-color">WordPress</span>
+                    </a>
+                    
+                    <a href="/tags/IMAP/">
+                        <span class="chip bg-color">IMAP</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -1567,7 +1579,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">57.2k</span>&nbsp;字
+                class="white-color">56.7k</span>&nbsp;字
             
             
             
@@ -1666,7 +1678,7 @@
             <span class="badge-subject">PV</span><span class="badge-value bg-brightgreen" id="busuanzi_value_site_pv"></span>
           </div>
           <div class="github-badge">
-            <span class="badge-subject">WordCount</span><span class="badge-value bg-blueviolet">57.2k</span>
+            <span class="badge-subject">WordCount</span><span class="badge-value bg-blueviolet">56.7k</span>
           </div>
 </div-->
 <style>

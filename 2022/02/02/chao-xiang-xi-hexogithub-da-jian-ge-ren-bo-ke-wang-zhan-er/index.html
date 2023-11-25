@@ -608,7 +608,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2023-11-21
+                    2023-11-25
                 </div>
                 
 
@@ -646,27 +646,27 @@
 <p>由于此篇文章时间间隔较大，有些细节记得不是很清楚，难免有疏忽之处还望见谅。最后边是一些记忆碎片，还望采纳。</p>
 <h2 id="注册-amp-创建仓库"><a href="#注册-amp-创建仓库" class="headerlink" title="注册&amp;创建仓库"></a>注册&amp;创建仓库</h2><p>首先访问GitHub官网注册账号，<a target="_blank" rel="noopener" href="https://github.com.这不多说了./">https://github.com.这不多说了。</a></p>
 <p>注册登录后，点击右上角头像旁的加号，新建一个仓库New repository。注意名字应和用户名一致。</p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2021/05/%E6%8D%95%E8%8E%B71.png"></p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2021/05/%E6%8D%95%E8%8E%B72.png"></p>
+<p><img src="/2022/02/02/chao-xiang-xi-hexogithub-da-jian-ge-ren-bo-ke-wang-zhan-er/img108.png"></p>
+<p><img src="/2022/02/02/chao-xiang-xi-hexogithub-da-jian-ge-ren-bo-ke-wang-zhan-er/img109.png"></p>
 <p>设置完用户名点击Create repository创建即可。</p>
 <h2 id="SSL-key"><a href="#SSL-key" class="headerlink" title="SSL key"></a>SSL key</h2><p>输入如下命令安装插件npm install hexo-deployer-git –save</p>
 <p>修改网站配置文件_config.yml,添加deploy信息：</p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2021/05/%E6%8D%95%E8%8E%B73-1.png"></p>
+<p><img src="/2022/02/02/chao-xiang-xi-hexogithub-da-jian-ge-ren-bo-ke-wang-zhan-er/img110.png"></p>
 <p>上面的repo的配置信息，替换成自己的项目名字。</p>
 <p>第一次需要执行如下命令：$ ssh-agent bash</p>
 <p>回车之后再执行$ ssh-add ~/.ssh/id_rsa</p>
 <p>这样就在C盘用户主目录下生成.ssh文件夹。</p>
 <h2 id="配置SSL-key"><a href="#配置SSL-key" class="headerlink" title="配置SSL key"></a>配置SSL key</h2><p>打开id_rsa.pub文件将一整串公钥拷贝下来，复制粘贴进如图key的位置，title随便写。</p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2021/05/QQ%E6%88%AA%E5%9B%BE20210408193936-1024x476.png"></p>
+<p><img src="/2022/02/02/chao-xiang-xi-hexogithub-da-jian-ge-ren-bo-ke-wang-zhan-er/img111.png"></p>
 <p>接着输入如下命令验证是否链接成功$ ssh -T <a href="mailto:git@github.com">git@github.com</a></p>
 <p>没报错就OK了。</p>
 <p>最后进行上传即可。</p>
 <p>$ hexo clean<br>$ hexo g<br>$ hexo d</p>
 <p>到这看似完美部署，但总觉得少了点什么，有这么几点：</p>
 <p>1、设置SSL key之前连接GitHub，Git窗口会提示验证邮箱的username、password。<br>2、设置完SSL key之后，页面会弹出如下图片，点击Sign in with your browser,会连续弹出两个窗口，输入邮箱用户名和密码。</p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2021/05/QQ%E6%88%AA%E5%9B%BE20210408200122-2.png"></p>
+<p><img src="/2022/02/02/chao-xiang-xi-hexogithub-da-jian-ge-ren-bo-ke-wang-zhan-er/112.png"></p>
 <p>3、输入完之后会是如下界面，表示身份验证成功。</p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2021/05/QQ%E6%88%AA%E5%9B%BE20210408193709.png"></p>
+<p><img src="/2022/02/02/chao-xiang-xi-hexogithub-da-jian-ge-ren-bo-ke-wang-zhan-er/113.png"></p>
 
                 
             </div>
@@ -866,10 +866,10 @@
                         <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
                     </ul>
                     <div id="alipay">
-                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="/medias/reward/das.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                     <div id="wechat">
-                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                        <img src="/medias/reward/das.jpg" class="reward-img" alt="微信打赏二维码">
                     </div>
                 </div>
             </div>
@@ -1178,13 +1178,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2022/02/02/wp-global-styles-sakura/">
+                <a href="/2022/02/05/app-tui-jian/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="Custom Styles">
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="APP推荐">
                         
-                        <span class="card-title">Custom Styles</span>
+                        <span class="card-title">APP推荐</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1195,19 +1195,27 @@
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-02-02
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-02-05
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/uncategorized/" class="post-category">
-                                    uncategorized
+                            <a href="/categories/%E5%85%B4%E8%B6%A3/" class="post-category">
+                                    兴趣
                                 </a>
                             
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/APP/">
+                        <span class="chip bg-color">APP</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -1219,13 +1227,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/02/02/wp-global-styles-sakurairo-master/">
+                <a href="/2022/01/29/http-500wordpress-shou-dong-geng-xin/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="Custom Styles">
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="HTTP 500&amp;Wordpress手动更新">
                         
-                        <span class="card-title">Custom Styles</span>
+                        <span class="card-title">HTTP 500&amp;Wordpress手动更新</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1236,19 +1244,39 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-02-02
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-29
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/uncategorized/" class="post-category">
-                                    uncategorized
+                            <a href="/categories/%E5%AE%9E%E8%B7%B5/" class="post-category">
+                                    实践
                                 </a>
                             
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/HTTP-500/">
+                        <span class="chip bg-color">HTTP 500</span>
+                    </a>
+                    
+                    <a href="/tags/WordPress/">
+                        <span class="chip bg-color">WordPress</span>
+                    </a>
+                    
+                    <a href="/tags/wordpress%E4%B8%8B%E8%BD%BD/">
+                        <span class="chip bg-color">wordpress下载</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/">
+                        <span class="chip bg-color">数据库</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -1534,7 +1562,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">57.2k</span>&nbsp;字
+                class="white-color">56.7k</span>&nbsp;字
             
             
             
@@ -1633,7 +1661,7 @@
             <span class="badge-subject">PV</span><span class="badge-value bg-brightgreen" id="busuanzi_value_site_pv"></span>
           </div>
           <div class="github-badge">
-            <span class="badge-subject">WordCount</span><span class="badge-value bg-blueviolet">57.2k</span>
+            <span class="badge-subject">WordCount</span><span class="badge-value bg-blueviolet">56.7k</span>
           </div>
 </div-->
 <style>

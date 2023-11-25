@@ -608,7 +608,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2023-11-21
+                    2023-11-25
                 </div>
                 
 
@@ -643,8 +643,8 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <p>配置SSL证书开启HTTPS后，WordPress网站会出现CSS样式丢失以及无法登陆后台的情况。</p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2020/07/QQ%E6%88%AA%E5%9B%BE20200701200307.png"></p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2020/07/QQ%E6%88%AA%E5%9B%BE20200701201347.png"></p>
+<p><img src="/2021/03/23/wordpress-pei-zhi-ssl-zheng-shu-wu-fa-deng-lu-hou-tai/img191.png"></p>
+<p><img src="/2021/03/23/wordpress-pei-zhi-ssl-zheng-shu-wu-fa-deng-lu-hou-tai/img192.png"></p>
 <p>通过以下方法可以解决：</p>
 <p>1、打开网站根目录wp-config.php文件，找到@package WordPress这一行。在下边添加如下代码。</p>
 <figure class="highlight php"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$_SERVER</span>[<span class="string">'HTTPS'</span>] = <span class="string">'on'</span>;</span><br><span class="line"><span class="title function_ invoke__">define</span>(<span class="string">'FORCE_SSL_LOGIN'</span>, <span class="literal">true</span>);</span><br><span class="line"><span class="title function_ invoke__">define</span>(<span class="string">'FORCE_SSL_ADMIN'</span>, <span class="literal">true</span>);</span><br></pre></td></tr></tbody></table></figure>
@@ -653,9 +653,9 @@
 <figure class="highlight php"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_ invoke__">add_filter</span>(<span class="string">'script_loader_src'</span>, <span class="string">'agnostic_script_loader_src'</span>, <span class="number">20</span>,<span class="number">2</span>); <span class="function"><span class="keyword">function</span> <span class="title">agnostic_script_loader_src</span>(<span class="params"><span class="variable">$src</span>, <span class="variable">$handle</span></span>) </span>{ <span class="keyword">return</span> <span class="title function_ invoke__">preg_replace</span>(<span class="string">'/^(httphttps):/'</span>, <span class="string">''</span>, <span class="variable">$src</span>); }</span><br><span class="line"><span class="title function_ invoke__">add_filter</span>(<span class="string">'style_loader_src'</span>, <span class="string">'agnostic_style_loader_src'</span>, <span class="number">20</span>,<span class="number">2</span>); <span class="function"><span class="keyword">function</span> <span class="title">agnostic_style_loader_src</span>(<span class="params"><span class="variable">$src</span>, <span class="variable">$handle</span></span>) </span>{ <span class="keyword">return</span> <span class="title function_ invoke__">preg_replace</span>(<span class="string">'/^(httphttps):/'</span>, <span class="string">''</span>, <span class="variable">$src</span>); }</span><br></pre></td></tr></tbody></table></figure>
 
 <p>3、通过以上方法即可解决样式和登录问题，但网页打开会有不安全字样，还要手动去修改网站里的HTTP链接。</p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2020/07/QQ%E6%88%AA%E5%9B%BE20200701203846.png"></p>
+<p><img src="/2021/03/23/wordpress-pei-zhi-ssl-zheng-shu-wu-fa-deng-lu-hou-tai/img193.png"></p>
 <p>4、在插件中只需下载really simple ssl这个插件即可完美解决。</p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2020/07/QQ%E6%88%AA%E5%9B%BE20200701202911.png"></p>
+<p><img src="/2021/03/23/wordpress-pei-zhi-ssl-zheng-shu-wu-fa-deng-lu-hou-tai/img194.png"></p>
 
                 
             </div>
@@ -855,10 +855,10 @@
                         <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
                     </ul>
                     <div id="alipay">
-                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="/medias/reward/das.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                     <div id="wechat">
-                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                        <img src="/medias/reward/das.jpg" class="reward-img" alt="微信打赏二维码">
                     </div>
                 </div>
             </div>
@@ -1538,7 +1538,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">57.2k</span>&nbsp;字
+                class="white-color">56.7k</span>&nbsp;字
             
             
             
@@ -1637,7 +1637,7 @@
             <span class="badge-subject">PV</span><span class="badge-value bg-brightgreen" id="busuanzi_value_site_pv"></span>
           </div>
           <div class="github-badge">
-            <span class="badge-subject">WordCount</span><span class="badge-value bg-blueviolet">57.2k</span>
+            <span class="badge-subject">WordCount</span><span class="badge-value bg-blueviolet">56.7k</span>
           </div>
 </div-->
 <style>

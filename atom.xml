@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-11-23T10:13:57.996Z</updated>
+  <updated>2023-11-25T13:37:03.951Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>微星主板故障灯</title>
+    <link href="http://example.com/2023/11/24/article6/"/>
+    <id>http://example.com/2023/11/24/article6/</id>
+    <published>2023-11-24T14:41:46.000Z</published>
+    <updated>2023-11-25T13:37:03.951Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;故障灯闪&quot;&gt;&lt;a href=&quot;#故障灯闪&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="文章" scheme="http://example.com/categories/%E6%96%87%E7%AB%A0/"/>
+    
+    
+    <category term="实践" scheme="http://example.com/tags/%E5%AE%9E%E8%B7%B5/"/>
+    
+  </entry>
   
   <entry>
     <title>使用Windows照片更改图片格式</title>
@@ -68,30 +93,6 @@
   </entry>
   
   <entry>
-    <title>心情</title>
-    <link href="http://example.com/2023/04/25/xin-qing-4/"/>
-    <id>http://example.com/2023/04/25/xin-qing-4/</id>
-    <published>2023-04-25T14:17:05.000Z</published>
-    <updated>2023-11-21T15:54:04.706Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;太难了……&lt;/p&gt;
-</summary>
-        
-      
-    
-    
-    
-    <category term="uncategorized" scheme="http://example.com/categories/uncategorized/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Apple美区ID注册跳过付款方式</title>
     <link href="http://example.com/2023/04/12/apple-mei-qu-id-zhu-ce-tiao-guo-fu-kuan-fang-shi/"/>
     <id>http://example.com/2023/04/12/apple-mei-qu-id-zhu-ce-tiao-guo-fu-kuan-fang-shi/</id>
@@ -121,15 +122,15 @@
     <link href="http://example.com/2023/03/07/apple-id-bu-neng-deng-lu-di-ban-ben-ios-xi-tong/"/>
     <id>http://example.com/2023/03/07/apple-id-bu-neng-deng-lu-di-ban-ben-ios-xi-tong/</id>
     <published>2023-03-07T06:51:38.000Z</published>
-    <updated>2023-11-21T15:54:04.706Z</updated>
+    <updated>2023-11-25T06:17:58.549Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;近期在海鲜市场淘了一部iPad，由于是老机器，系统版本最高支持到15.7，使得Apple ID无法登录。&lt;/p&gt;
-&lt;p&gt;在咨询了苹果官方后得知，是因为开启了“高级数据保护 ”所致</summary>
+    <summary type="html">&lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;近期在海鲜市场淘了一部iPad，由于是老机器，系统版本最高支持到15.7，使得Apple ID无法登录。&lt;/p&gt;
+&lt;h2</summary>
         
       
     
@@ -147,16 +148,14 @@
     <link href="http://example.com/2023/03/03/a-li-yun-zhu-ji-ssl-zheng-shu-dao-qi-kuai-su-geng-huan/"/>
     <id>http://example.com/2023/03/03/a-li-yun-zhu-ji-ssl-zheng-shu-dao-qi-kuai-su-geng-huan/</id>
     <published>2023-03-03T00:59:00.000Z</published>
-    <updated>2023-11-21T15:54:04.691Z</updated>
+    <updated>2023-11-25T06:24:54.257Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;现在阿里云免费的SSL证书一年为20个，到期清除的是申请已使用/申请未使用，不包含未申请的剩余个数。&lt;/p&gt;
-&lt;p&gt;我们可以直接在SSL证书免费证书中使用未申请的个数，创建新的证书。&lt;/p&gt;
-&lt;p&gt;&lt;img</summary>
+    <summary type="html">&lt;h2 id=&quot;申请&quot;&gt;&lt;a href=&quot;#申请&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -239,7 +238,7 @@
     <link href="http://example.com/2023/02/07/an-zhuo-ping-ban-qq-gua-pei/"/>
     <id>http://example.com/2023/02/07/an-zhuo-ping-ban-qq-gua-pei/</id>
     <published>2023-02-07T07:30:02.000Z</published>
-    <updated>2023-11-21T15:54:04.706Z</updated>
+    <updated>2023-11-25T06:31:07.287Z</updated>
     
     
       
@@ -269,7 +268,7 @@
     <link href="http://example.com/2023/02/04/google-play-wu-fa-an-zhuang-chrome/"/>
     <id>http://example.com/2023/02/04/google-play-wu-fa-an-zhuang-chrome/</id>
     <published>2023-02-04T01:12:00.000Z</published>
-    <updated>2023-11-21T15:54:04.691Z</updated>
+    <updated>2023-11-25T06:35:07.774Z</updated>
     
     
       
@@ -297,7 +296,7 @@
     <link href="http://example.com/2023/01/25/wordpress-wu-fa-fa-song-smtp-you-jian/"/>
     <id>http://example.com/2023/01/25/wordpress-wu-fa-fa-song-smtp-you-jian/</id>
     <published>2023-01-25T00:00:00.000Z</published>
-    <updated>2023-11-21T15:54:04.691Z</updated>
+    <updated>2023-11-25T06:37:32.948Z</updated>
     
     
       
@@ -326,7 +325,7 @@
     <link href="http://example.com/2023/01/08/xiao-du-yin-xiang-lian-jie-xiao-mi-dian-shi-guan-kan-ai-qi-yi/"/>
     <id>http://example.com/2023/01/08/xiao-du-yin-xiang-lian-jie-xiao-mi-dian-shi-guan-kan-ai-qi-yi/</id>
     <published>2023-01-08T01:01:00.000Z</published>
-    <updated>2023-11-21T15:54:04.691Z</updated>
+    <updated>2023-11-25T06:39:42.065Z</updated>
     
     
       
@@ -359,7 +358,7 @@
     <link href="http://example.com/2022/12/24/xiao-mi-dian-shi-an-zhuang-dian-shi-jia/"/>
     <id>http://example.com/2022/12/24/xiao-mi-dian-shi-an-zhuang-dian-shi-jia/</id>
     <published>2022-12-24T01:02:00.000Z</published>
-    <updated>2023-11-21T15:54:04.675Z</updated>
+    <updated>2023-11-25T06:42:53.081Z</updated>
     
     
       
@@ -389,7 +388,7 @@
     <link href="http://example.com/2022/12/02/xiao-mi-shou-ji-shua-ji-jiang-xi-tong/"/>
     <id>http://example.com/2022/12/02/xiao-mi-shou-ji-shua-ji-jiang-xi-tong/</id>
     <published>2022-12-02T01:27:00.000Z</published>
-    <updated>2023-11-21T15:54:04.675Z</updated>
+    <updated>2023-11-25T06:52:38.811Z</updated>
     
     
       
@@ -424,7 +423,7 @@
     <link href="http://example.com/2022/11/14/jia-zhuang-ji-jie-ying-pan/"/>
     <id>http://example.com/2022/11/14/jia-zhuang-ji-jie-ying-pan/</id>
     <published>2022-11-14T01:52:07.000Z</published>
-    <updated>2023-11-21T15:54:04.691Z</updated>
+    <updated>2023-11-25T06:56:34.461Z</updated>
     
     
       
@@ -451,7 +450,7 @@
     <link href="http://example.com/2022/11/12/next-cloud-yi-dong-duan-shi-yong/"/>
     <id>http://example.com/2022/11/12/next-cloud-yi-dong-duan-shi-yong/</id>
     <published>2022-11-12T02:33:00.000Z</published>
-    <updated>2023-11-21T15:54:04.675Z</updated>
+    <updated>2023-11-25T07:00:15.412Z</updated>
     
     
       
@@ -479,7 +478,7 @@
     <link href="http://example.com/2022/11/04/an-zhuo-ping-ban-liu-lan-qi-she-zhi/"/>
     <id>http://example.com/2022/11/04/an-zhuo-ping-ban-liu-lan-qi-she-zhi/</id>
     <published>2022-11-03T22:02:41.000Z</published>
-    <updated>2023-11-21T15:54:04.691Z</updated>
+    <updated>2023-11-25T07:05:51.125Z</updated>
     
     
       
@@ -534,7 +533,7 @@
     <link href="http://example.com/2022/10/30/next-cloud-ke-hu-duan-shi-yong/"/>
     <id>http://example.com/2022/10/30/next-cloud-ke-hu-duan-shi-yong/</id>
     <published>2022-10-30T01:50:00.000Z</published>
-    <updated>2023-11-21T15:54:04.659Z</updated>
+    <updated>2023-11-25T07:02:31.666Z</updated>
     
     
       
@@ -561,7 +560,7 @@
     <link href="http://example.com/2022/10/15/doki-doki-literature-club-han-hua-bao/"/>
     <id>http://example.com/2022/10/15/doki-doki-literature-club-han-hua-bao/</id>
     <published>2022-10-15T00:58:00.000Z</published>
-    <updated>2023-11-21T15:54:04.675Z</updated>
+    <updated>2023-11-25T07:07:54.402Z</updated>
     
     
       

@@ -608,14 +608,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2023-11-21
+                    2023-11-25
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    365
+                    364
                 </div>
                 
 
@@ -643,7 +643,7 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <p>必应首页每日都会更新一张高质量图片，用作网站首页大图或作为桌面壁纸都是很漂亮的。</p>
-<p><img src="https://www.coolku.cc/api/bing/mo.php">  </p>
+<p><img src="https://www.yunjianwu.com/js/mo.php">  </p>
 <h2 id="官方API"><a href="#官方API" class="headerlink" title="官方API"></a>官方API</h2><p><a target="_blank" rel="noopener" href="https://cn.bing.com/HPImageArchive.aspx?format=js&amp;idx=0&amp;n=1&amp;mkt=zh-CN">https://cn.bing.com/HPImageArchive.aspx?format=js&amp;idx=0&amp;n=1&amp;mkt=zh-CN</a></p>
 <h2 id="接口说明"><a href="#接口说明" class="headerlink" title="接口说明"></a>接口说明</h2><p>参数名称</p>
 <p>值含义</p>
@@ -656,7 +656,7 @@
 <p>mkt（非必需）</p>
 <p>地区<br>zh-CN<br>…</p>
 <p>通过官方API接口返回示例，我们可以通过域名 + 图片地址获取图片：</p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2020/12/QQ%E6%88%AA%E5%9B%BE20201225211233.png"></p>
+<p><img src="/2021/09/19/bi-ying-mei-ri-bi-zhi-api/img170.png"></p>
 <p><a target="_blank" rel="noopener" href="https://cn.bing.com/th?id=OHR.FRbluebirds_ZH-CN3972483010_1920x1080.jpg&amp;rf=LaDigue_1920x1080.jpg&amp;pid=hp">https://cn.bing.com/th?id=OHR.FRbluebirds_ZH-CN3972483010_1920x1080.jpg&amp;rf=LaDigue_1920x1080.jpg&amp;pid=hp</a></p>
 <h2 id="自制接口"><a href="#自制接口" class="headerlink" title="自制接口"></a>自制接口</h2><p>新建PHP文件，复制如下代码即可。</p>
 <figure class="highlight php"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="variable">$json_string</span> = <span class="title function_ invoke__">file_get_contents</span>(<span class="string">'https://cn.bing.com/HPImageArchive.aspx?format=js&amp;idx=0&amp;n=1&amp;mkt=zh-CN'</span>);</span><br><span class="line"><span class="variable">$data</span> = <span class="title function_ invoke__">json_decode</span>(<span class="variable">$json_string</span>, <span class="literal">true</span>);</span><br><span class="line"><span class="variable">$url</span> = <span class="string">'https://cn.bing.com'</span>.<span class="variable">$data</span>[<span class="string">'images'</span>][<span class="number">0</span>][<span class="string">'url'</span>];</span><br><span class="line"><span class="title function_ invoke__">header</span>(<span class="string">"Location: <span class="subst">{$url}</span>"</span>);</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></tbody></table></figure>
@@ -664,7 +664,7 @@
 <h2 id="调用"><a href="#调用" class="headerlink" title="调用"></a>调用</h2><p>可直接调用或作为以下方式调用。</p>
 <p>1、作为图片调用：&lt; img src=”http://域名/文件名.php” /&gt;</p>
 <p>2、作为网页背景调用：body{background:url(‘http://域名/文件名.php’);}</p>
-<p>当然如不想麻烦，也可以直接使用我的接口：<a target="_blank" rel="noopener" href="https://www.coolku.cc/api/bing/mo.php">https://www.coolku.cc/api/bing/mo.php</a></p>
+<p>当然如不想麻烦，也可以直接使用我的接口：<a target="_blank" rel="noopener" href="https://www.yunjianwu.com/js/mo.php">https://www.yunjianwu.com/js/mo.php</a></p>
 
                 
             </div>
@@ -864,10 +864,10 @@
                         <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
                     </ul>
                     <div id="alipay">
-                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="/medias/reward/das.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                     <div id="wechat">
-                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                        <img src="/medias/reward/das.jpg" class="reward-img" alt="微信打赏二维码">
                     </div>
                 </div>
             </div>
@@ -1176,13 +1176,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/09/29/download-1188-file-version/">
+                <a href="/2021/10/02/wordpress-deng-lu-bei-jing-diao-yong-bi-ying-bi-zhi-api/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="Download">
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="WordPress登录背景调用必应壁纸API">
                         
-                        <span class="card-title">Download</span>
+                        <span class="card-title">WordPress登录背景调用必应壁纸API</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1193,19 +1193,27 @@
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-09-29
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-10-02
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/uncategorized/" class="post-category">
-                                    uncategorized
+                            <a href="/categories/%E6%95%99%E7%A8%8B/" class="post-category">
+                                    教程
                                 </a>
                             
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/WordPress/">
+                        <span class="chip bg-color">WordPress</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -1544,7 +1552,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">57.2k</span>&nbsp;字
+                class="white-color">56.7k</span>&nbsp;字
             
             
             
@@ -1643,7 +1651,7 @@
             <span class="badge-subject">PV</span><span class="badge-value bg-brightgreen" id="busuanzi_value_site_pv"></span>
           </div>
           <div class="github-badge">
-            <span class="badge-subject">WordCount</span><span class="badge-value bg-blueviolet">57.2k</span>
+            <span class="badge-subject">WordCount</span><span class="badge-value bg-blueviolet">56.7k</span>
           </div>
 </div-->
 <style>

@@ -616,7 +616,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2023-11-21
+                    2023-11-25
                 </div>
                 
 
@@ -651,18 +651,18 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h2 id="HTTP-500"><a href="#HTTP-500" class="headerlink" title="HTTP 500"></a>HTTP 500</h2><p>前几天访问网站突然不能打开，而且HTTP 500不显示错误信息，所以无法直接找到原因让人头疼，只能先一步步测试排查。</p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2021/12/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2021-12-29-221644.png"></p>
+<p><img src="/2022/01/29/http-500wordpress-shou-dong-geng-xin/img114.png"></p>
 <p>第一步做了服务器.htaccess文件排查，结果无用。</p>
 <p>第二步禁用了插件，依旧无用。</p>
 <p>第三步做了PHP版本升级，之前是5.6，升到了7.0，错误信息变成了建立数据库连接时出错。</p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2021/12/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2021-12-29-233004.png"></p>
+<p><img src="/2022/01/29/http-500wordpress-shou-dong-geng-xin/img115.png"></p>
 <p>看到这检查了wp-config.php文件中数据库信息，添加了检查代码，修改了密码但还是没用。PHP版本降回就是HTTP 500，升上去就是建立数据库连接时出错。</p>
 <p>我开始想我最后一次做了什么，我操作过数据库，删除过数据表，可能是这个原因。</p>
 <h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>因为之前wordpress升级老是504连接超时，后来一直没升级版本较低，所以就按网上的方法操作。</p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2021/12/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2021-12-26-164826.png"></p>
+<p><img src="/2022/01/29/http-500wordpress-shou-dong-geng-xin/img116.png"></p>
 <p>升级WordPress时，WordPress会在数据库wp_options表中增加一条更新记录。如中途打断WordPress升级，这个记录会留在数据库中。当下次升级时，WordPress检测到此记录的存在就会返回“另一更新正在进行”。</p>
 <p>登录数据库在wp_options表中查找core_updater.lock记录并删除，但也无用。来回删除，页面也来回是504和另一更新正在进行，最后就没再管。</p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2021/12/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2021-12-26-173725.png"></p>
+<p><img src="/2022/01/29/http-500wordpress-shou-dong-geng-xin/img117.png"></p>
 <p>想到这我觉得是数据表出了问题，就进行了修复表，也没啥用。后边想着用手动更新的方式覆盖一下，看能不能成。</p>
 <h2 id="手动更新"><a href="#手动更新" class="headerlink" title="手动更新"></a>手动更新</h2><p>1、先下载最新版安装包：</p>
 <p>中文官方地址：<a target="_blank" rel="noopener" href="https://cn.wordpress.org/download/releases/#older">版本发布 WordPress.org China 简体中文</a></p>
@@ -670,7 +670,7 @@
 <p>直接下载最新版：<a target="_blank" rel="noopener" href="https://wordpress.org/latest.zip">https://wordpress.org/latest.zip</a></p>
 <p>2、解压安装包，删除里面的wp-content文件夹，使用FTP上传覆盖。</p>
 <p>3、直接访问网站更新数据库即可正常访问。</p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2021/12/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2021-12-30-020954.png"></p>
+<p><img src="/2022/01/29/http-500wordpress-shou-dong-geng-xin/img118.png"></p>
 
                 
             </div>
@@ -878,10 +878,10 @@
                         <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
                     </ul>
                     <div id="alipay">
-                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="/medias/reward/das.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                     <div id="wechat">
-                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                        <img src="/medias/reward/das.jpg" class="reward-img" alt="微信打赏二维码">
                     </div>
                 </div>
             </div>
@@ -1190,13 +1190,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2022/02/02/wp-global-styles-sakurairo-master/">
+                <a href="/2022/02/02/chao-xiang-xi-hexogithub-da-jian-ge-ren-bo-ke-wang-zhan-er/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="Custom Styles">
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="超详细Hexo+Github搭建个人博客网站(二)">
                         
-                        <span class="card-title">Custom Styles</span>
+                        <span class="card-title">超详细Hexo+Github搭建个人博客网站(二)</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1213,13 +1213,25 @@
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/uncategorized/" class="post-category">
-                                    uncategorized
+                            <a href="/categories/%E6%95%99%E7%A8%8B/" class="post-category">
+                                    教程
                                 </a>
                             
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/github/">
+                        <span class="chip bg-color">github</span>
+                    </a>
+                    
+                    <a href="/tags/hexo/">
+                        <span class="chip bg-color">hexo</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -1231,13 +1243,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/01/27/mou-pao/">
+                <a href="/2022/01/19/hexo-wen-zhang-zhong-cha-ru-tu-pian/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="冒泡">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="hexo文章中插入图片">
                         
-                        <span class="card-title">冒泡</span>
+                        <span class="card-title">hexo文章中插入图片</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1248,19 +1260,27 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-27
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-19
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/uncategorized/" class="post-category">
-                                    uncategorized
+                            <a href="/categories/%E6%95%99%E7%A8%8B/" class="post-category">
+                                    教程
                                 </a>
                             
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/hexo/">
+                        <span class="chip bg-color">hexo</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -1546,7 +1566,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">57.2k</span>&nbsp;字
+                class="white-color">56.7k</span>&nbsp;字
             
             
             
@@ -1645,7 +1665,7 @@
             <span class="badge-subject">PV</span><span class="badge-value bg-brightgreen" id="busuanzi_value_site_pv"></span>
           </div>
           <div class="github-badge">
-            <span class="badge-subject">WordCount</span><span class="badge-value bg-blueviolet">57.2k</span>
+            <span class="badge-subject">WordCount</span><span class="badge-value bg-blueviolet">56.7k</span>
           </div>
 </div-->
 <style>

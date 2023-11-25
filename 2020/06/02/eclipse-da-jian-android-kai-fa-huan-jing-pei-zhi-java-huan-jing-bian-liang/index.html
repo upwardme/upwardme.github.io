@@ -612,14 +612,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2023-11-21
+                    2023-11-25
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    558
+                    560
                 </div>
                 
 
@@ -646,39 +646,39 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>首先下载好eclipse、JDK、Android SDK、ADT插件</p>
+                <h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>首先下载好eclipse、JDK、Android SDK、ADT插件</p>
 <p>安装好eclipse和JDK，配置Java环境变量。（底部具体配置Java环境变量）</p>
 <p>配置好后，打开eclipse，点击菜单栏上的Help-Install New Software…</p>
 <p>在对话窗口中Add…然后再点击Archive…选择下载的ADT插件压缩包，点击OK</p>
-<p><img src="http://www.coolku.cc/wp-content/uploads/2020/06/pt2.png"></p>
+<p><img src="/2020/06/02/eclipse-da-jian-android-kai-fa-huan-jing-pei-zhi-java-huan-jing-bian-liang/img316.png"></p>
 <p>点击OK后出现了两行复选框，Select All全选，点击Next，安装时间会有点长！</p>
 <p>接着安装SDK，给SDK配置环境变量。（底部具体AndroidSDK配置环境变量）</p>
 <p>打开SDK安装目录，安装SDK Manager，然后在打开窗口选择要安装的SDK版本点击Install packages…（安装成功的Status会显示Installed），这里安装也有点慢，最后在弹出窗口中点击Accept All，再点击Install就行了。</p>
-<p><img src="http://www.coolku.cc/wp-content/uploads/2020/06/pt3.png"></p>
+<p><img src="/2020/06/02/eclipse-da-jian-android-kai-fa-huan-jing-pei-zhi-java-huan-jing-bian-liang/img317.png"></p>
 <p>（如果SDK安装目录找不到文件，也可以点击eclipse工具栏中的Android图 标进行安装）</p>
-<p><img src="http://www.coolku.cc/wp-content/uploads/2020/06/pt4.png"></p>
+<p><img src="/2020/06/02/eclipse-da-jian-android-kai-fa-huan-jing-pei-zhi-java-huan-jing-bian-liang/img318.png"></p>
 <p>最后点击eclipse菜单上的Windows-preferences，在弹出窗口中点击Android，选择SDK安装根目录，点击OK。</p>
 <p>接下来创建Android模拟器，点击eclipse工具栏中的Android图标，在弹出窗口中点击New…接着点击Target选择刚下载的SDK版本，点击Device选择屏幕分辨率大小，SD Card选择存储大小，最后点击OK就完成了。</p>
-<p><img src="http://www.coolku.cc/wp-content/uploads/2020/06/pt5.png"></p>
-<p><img src="http://www.coolku.cc/wp-content/uploads/2020/06/pt6.png"></p>
+<p><img src="/2020/06/02/eclipse-da-jian-android-kai-fa-huan-jing-pei-zhi-java-huan-jing-bian-liang/img319.png"></p>
+<p><img src="/2020/06/02/eclipse-da-jian-android-kai-fa-huan-jing-pei-zhi-java-huan-jing-bian-liang/img320.png"></p>
 <p>创建Android项目</p>
 <p>点击eclipse菜单File-New-Other…在弹出窗口点击Android选择Android Application Project，填写项目名称，然后一路Next最后点击Finish就完成了。</p>
-<p><img src="http://www.coolku.cc/wp-content/uploads/2020/06/pt7.png"></p>
-<p><img src="http://www.coolku.cc/wp-content/uploads/2020/06/pt8.png"></p>
-<p><img src="http://www.coolku.cc/wp-content/uploads/2020/06/pt9.png"></p>
+<p><img src="/2020/06/02/eclipse-da-jian-android-kai-fa-huan-jing-pei-zhi-java-huan-jing-bian-liang/img321.png"></p>
+<p><img src="/2020/06/02/eclipse-da-jian-android-kai-fa-huan-jing-pei-zhi-java-huan-jing-bian-liang/img322.png"></p>
+<p><img src="/2020/06/02/eclipse-da-jian-android-kai-fa-huan-jing-pei-zhi-java-huan-jing-bian-liang/img323.png"></p>
 <p>打开Android模拟器</p>
 <p>选择Android项目右键，Run As-Android Application，然后就会看到刚才创建的Android项目模拟器，就可以对Android项目进行编译查看。</p>
-<p><img src="http://www.coolku.cc/wp-content/uploads/2020/06/pt10.png"></p>
+<p><img src="/2020/06/02/eclipse-da-jian-android-kai-fa-huan-jing-pei-zhi-java-huan-jing-bian-liang/img324.png"></p>
 <h2 id="配置Java环境变量"><a href="#配置Java环境变量" class="headerlink" title="配置Java环境变量"></a>配置Java环境变量</h2><p>安装JDK，在系统环境变量中新建三个变量（系统有的添加就行，没有的新建），第一个变量名：JAVA_HOME&nbsp;&nbsp;&nbsp;变量值：D:\Program Files\Java\jdk1.8.0_101（JDK安装根目录）</p>
-<p><img src="http://www.coolku.cc/wp-content/uploads/2020/06/pt11.png"></p>
+<p><img src="/2020/06/02/eclipse-da-jian-android-kai-fa-huan-jing-pei-zhi-java-huan-jing-bian-liang/img325.png"></p>
 <p>第二个变量名：CLASSPATH&nbsp;&nbsp;&nbsp;变量值：.;%JAVA_HOME%\lib\dt.jar;</p>
 <p>%JAVA_HOME%\lib\tools.jar;（注意最前面的”.”号）</p>
-<p><img src="http://www.coolku.cc/wp-content/uploads/2020/06/pt12.png"></p>
+<p><img src="/2020/06/02/eclipse-da-jian-android-kai-fa-huan-jing-pei-zhi-java-huan-jing-bian-liang/img326.png"></p>
 <p>第三个变量名：PATH&nbsp;&nbsp;&nbsp;变量值：%JAVA_HOME%\bin;</p>
-<p><img src="http://www.coolku.cc/wp-content/uploads/2020/06/pt13.png"></p>
+<p><img src="/2020/06/02/eclipse-da-jian-android-kai-fa-huan-jing-pei-zhi-java-huan-jing-bian-liang/img327.png"></p>
 <p>Android SDK环境变量配置</p>
 <p>在系统变量PATH中添加androidSDK安装目录下的platform-tools和tools的目录路径（中间用逗号隔开）</p>
-<p><img src="http://www.coolku.cc/wp-content/uploads/2020/06/pt14.png"></p>
+<p><img src="/2020/06/02/eclipse-da-jian-android-kai-fa-huan-jing-pei-zhi-java-huan-jing-bian-liang/img328.png"></p>
 
                 
             </div>
@@ -882,10 +882,10 @@
                         <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
                     </ul>
                     <div id="alipay">
-                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="/medias/reward/das.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                     <div id="wechat">
-                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                        <img src="/medias/reward/das.jpg" class="reward-img" alt="微信打赏二维码">
                     </div>
                 </div>
             </div>
@@ -1255,13 +1255,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/06/02/hello/">
+                <a href="/2020/05/31/wordpress-shang-chuan-de-zhu-ti-wen-jian-chi-cun-chao-guo-upload-max-filesize-wen-jian-zhong-ding-yi-de-php-ini-zhi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="Hello">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="wordpress上传的主题文件尺寸超过upload_max_filesize文件中定义的php.ini值。">
                         
-                        <span class="card-title">Hello</span>
+                        <span class="card-title">wordpress上传的主题文件尺寸超过upload_max_filesize文件中定义的php.ini值。</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1272,14 +1272,14 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-02
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-31
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E5%85%B6%E4%BB%96/" class="post-category">
-                                    其他
+                            <a href="/categories/%E5%AE%9E%E8%B7%B5/" class="post-category">
+                                    实践
                                 </a>
                             
                             
@@ -1289,8 +1289,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E7%BD%AE%E9%A1%B6/">
-                        <span class="chip bg-color">置顶</span>
+                    <a href="/tags/WordPress/">
+                        <span class="chip bg-color">WordPress</span>
                     </a>
                     
                 </div>
@@ -1578,7 +1578,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">57.2k</span>&nbsp;字
+                class="white-color">56.7k</span>&nbsp;字
             
             
             
@@ -1677,7 +1677,7 @@
             <span class="badge-subject">PV</span><span class="badge-value bg-brightgreen" id="busuanzi_value_site_pv"></span>
           </div>
           <div class="github-badge">
-            <span class="badge-subject">WordCount</span><span class="badge-value bg-blueviolet">57.2k</span>
+            <span class="badge-subject">WordCount</span><span class="badge-value bg-blueviolet">56.7k</span>
           </div>
 </div-->
 <style>

@@ -616,7 +616,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2023-11-21
+                    2023-11-25
                 </div>
                 
 
@@ -728,14 +728,14 @@
 <p>jQuery表单验证插件Validation</p>
 <p>$(‘#formid’).validate({<br>rules{<br>nick（input的name）:{<br>required:true,<br>rangelength:[6,10],<br>}<br>},验证规则<br>messages:{<br>nick（input的name）:{<br>required:’用户名不能为空’<br>}<br>}验证提示<br>})</p>
 <p>其他验证</p>
-<p><img src="http://www.coolku.cc/wp-content/uploads/2020/06/pt53.png"></p>
+<p><img src="/2020/06/02/qian-duan-bi-ji/img314.png"></p>
 <h2 id="HTML5本地存储"><a href="#HTML5本地存储" class="headerlink" title="HTML5本地存储"></a>HTML5本地存储</h2><p>localStorage永久存储（只要是同一个网站下的项目都能使用）<br>sessionStorage临时存储（谁存谁调用）<br>setitem新增，修改数据<br>getitem获取数据<br>removeitem删除数据<br>sessionStorage.setitem（传两个值。1、‘名字’，2、‘值’，，，修改也是一样）<br>sessionStorage.getitem（传他的名字）<br>sessionStorage.removeitem（传他的名字）</p>
 <h2 id="DOM元素动画"><a href="#DOM元素动画" class="headerlink" title="DOM元素动画"></a>DOM元素动画</h2><p>$(obj).animate(三个参数。1、一组css对象的集合（不支持颜色设置），例如：{“marginLeft”：“400px”，“marginTop”：“400px”}，2、时间1000，3、回调函数function（）{})如需多个动画，在后边继续添加<br>动画相对值<br>$(obj).animate（{<br>left：“+=100px”，+=相对于当前位置加（一般不用）<br>top：“-=400px”<br>}<br>停止动画，开始下一个动画<br>$(obj).stop（两个参数，1、是否清空所有动画true，2、停止之后动画到每个动画的结束位置true）<br>$(obj).finish（直接结束到最后位置）1.9之后新增<br>延时（慎用，时间不宜太长<br>$(obj).delay（数字值）放在指定.animate前边</p>
 <h2 id="CSS3高级特效"><a href="#CSS3高级特效" class="headerlink" title="CSS3高级特效"></a>CSS3高级特效</h2><p>2D转换transform<br>包含如下：translate（）移动：：方法translate（X,Y)，translate（X)，translate（Y)<br>rotate（30deg/-30deg）旋转，里边是度数单位deg<br>scale（数字值，倍数）缩放，两个参数1、X轴2、Y<br>skew（20deg,30deg）倾斜，两个参数X，Y。也可以单独设置XY，skewX，skewY</p>
 <p>css3动画<br>3D转换transform<br>要是用3D必须给当前元素的父元素设置舞台transform-style：preserve-3d<br>包含：transform-origin改变元素位置X：left。center，right，length，%；Ytop，center，bottom。length。%；Zlength<br>transform-style（舞台）嵌套元素在3D空间如何显示，值：flat子元素将不保留其3D效果，preserve-3d子元素保留3D效果<br>perspective（视角）规定3D元素的视角，值：数字值PX</p>
 <p>3D转换方法<br>位移：translateX()<br>translateY()<br>translateZ()<br>translate3d(三个参数XYZ，也可单独设置)<br>旋转：rotateX()<br>rotateY()<br>rotateZ()<br>rotate3d(四个参数xyza,XYZ轴（0-1）1代表旋转0不旋转 a是度数，也可单独设置，a不用单独)<br>分开写的格式：transform:rotatex(30deg)空格rotatey(40deg)空格rotatez(60deg)<br>缩放：scaleX()<br>scaleY()<br>scaleZ()<br>scale3d()</p>
 <p>css3过渡效果<br>transition<br>四个属性：<br>transition-property发生变化的css属性的名称，一般写all全部<br>transition-duration花费时间<br>transition-delay延时<br>transition-timing-function时间曲线，，有多个参数：用最多的是linear</p>
-<p><img src="http://www.coolku.cc/wp-content/uploads/2020/06/pt54.png"></p>
+<p><img src="/2020/06/02/qian-duan-bi-ji/img315.png"></p>
 <p>transition缺点：必须要事件触发，只能执行一次，只能定义开始和结束</p>
 <p>动画效果<br>@keyframes:创建动画<br>animation：设置动画属性<br>定义动画<br>@keyframes animationname（动画名称）{<br>keyframes-selector（动画时长的百分比，值0-100%，from（与0%相同），（to（与100%相同）{<br>css-styles（一个或多个合法的CSS样式属性）<br>}<br>}</p>
 <p>使用动画<br>animation：多个参数<br>animation-name：动画名字，可以是由@keyframes创建的名字，或者none<br>animation-duration：持续时间数字值<br>animation-timing-function：动画播放的方式<br>animation-delay：延时，数字值<br>animation-interaction-count：循环次数，默认1，infinite无限<br>animation-direction：动画播放方向。两个值normal（默认值，每次循环正常播放） alternate（奇数向前播放。偶数反）</p>
@@ -946,10 +946,10 @@
                         <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
                     </ul>
                     <div id="alipay">
-                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="/medias/reward/das.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                     <div id="wechat">
-                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                        <img src="/medias/reward/das.jpg" class="reward-img" alt="微信打赏二维码">
                     </div>
                 </div>
             </div>
@@ -1642,7 +1642,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">57.2k</span>&nbsp;字
+                class="white-color">56.7k</span>&nbsp;字
             
             
             
@@ -1741,7 +1741,7 @@
             <span class="badge-subject">PV</span><span class="badge-value bg-brightgreen" id="busuanzi_value_site_pv"></span>
           </div>
           <div class="github-badge">
-            <span class="badge-subject">WordCount</span><span class="badge-value bg-blueviolet">57.2k</span>
+            <span class="badge-subject">WordCount</span><span class="badge-value bg-blueviolet">56.7k</span>
           </div>
 </div-->
 <style>

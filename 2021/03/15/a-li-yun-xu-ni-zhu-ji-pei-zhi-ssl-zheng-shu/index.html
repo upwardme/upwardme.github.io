@@ -604,14 +604,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2023-11-21
+                    2023-11-25
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    465
+                    471
                 </div>
                 
 
@@ -639,31 +639,31 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <p>这里通过CDN来配置SSL证书，共享、独享云虚拟主机一样适用。</p>
-<p>1、首先在阿里云搜索SSL证书，根据个人选择进行购买，建议个人网站的话买免费的就可以了。</p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2020/07/QQ%E6%88%AA%E5%9B%BE20200701185027.png"></p>
+<h2 id="购买证书"><a href="#购买证书" class="headerlink" title="购买证书"></a>购买证书</h2><p>1、首先在阿里云搜索SSL证书，根据个人选择进行购买，建议个人网站的话买免费的就可以了。</p>
+<p><img src="/2021/03/15/a-li-yun-xu-ni-zhu-ji-pei-zhi-ssl-zheng-shu/img195.png"></p>
 <p>2、购买成功后，进入SSL证书控制台，进行证书申请。</p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2020/07/QQ%E6%88%AA%E5%9B%BE20200701190451.png"></p>
+<p><img src="/2021/03/15/a-li-yun-xu-ni-zhu-ji-pei-zhi-ssl-zheng-shu/img196.png"></p>
 <p>3、填写个人信息和验证信息，点击验证，验证成功后提交审核即可。</p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2020/07/QQ%E6%88%AA%E5%9B%BE20200701210352.png"></p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2020/07/QQ%E6%88%AA%E5%9B%BE20200701210547.png"></p>
-<p>4、接下来在CDN控制台中，域名管理–添加域名。</p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2020/07/QQ%E6%88%AA%E5%9B%BE20200701192720.png"></p>
+<p><img src="/2021/03/15/a-li-yun-xu-ni-zhu-ji-pei-zhi-ssl-zheng-shu/img197.png"></p>
+<p><img src="/2021/03/15/a-li-yun-xu-ni-zhu-ji-pei-zhi-ssl-zheng-shu/img198.png"></p>
+<h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><p>4、接下来在CDN控制台中，域名管理–添加域名。</p>
+<p><img src="/2021/03/15/a-li-yun-xu-ni-zhu-ji-pei-zhi-ssl-zheng-shu/img199.png"></p>
 <p>5、填写加速域名，业务类型–图片小文件，IP地址，端口选择80，根据自己的域名选择加速区域。</p>
 <p>6、添加完成后，等待配置，一般5–10分钟左右即可。</p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2020/07/QQ%E6%88%AA%E5%9B%BE20200701211946.png"></p>
+<p><img src="/2021/03/15/a-li-yun-xu-ni-zhu-ji-pei-zhi-ssl-zheng-shu/img200.png"></p>
 <p>7、配置完成后，这时HTTPS未开启。回到SSL证书控制台，操作SSL证书，点击部署–CDN，选择刚加速的域名进行部署。</p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2020/07/QQ%E6%88%AA%E5%9B%BE20200701212300.png"></p>
+<p><img src="/2021/03/15/a-li-yun-xu-ni-zhu-ji-pei-zhi-ssl-zheng-shu/img201.png"></p>
 <p>点击部署CDN时，会授权RAM访问控制，同意授权即可。部署完成后会显示一个CDN标识，说明部署成功。</p>
 <p>8、部署CDN成功。</p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2020/07/QQ%E6%88%AA%E5%9B%BE20200701215410.png"></p>
+<p><img src="/2021/03/15/a-li-yun-xu-ni-zhu-ji-pei-zhi-ssl-zheng-shu/img202.png"></p>
 <p>9、这时回到CDN控制台–域名管理，就可以看到刚加速的域名开启了HTTPS。但仍需解析才行。</p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2020/07/QQ%E6%88%AA%E5%9B%BE20200701212831.png"></p>
+<p><img src="/2021/03/15/a-li-yun-xu-ni-zhu-ji-pei-zhi-ssl-zheng-shu/img203.png"></p>
 <p>10、另外选择刚加速的域名，管理–HTTPS配置，点击强制跳转–修改配置，选择HTTP–HTTPS跳转类型。</p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2020/07/QQ%E6%88%AA%E5%9B%BE20200701194426.png"></p>
+<p><img src="/2021/03/15/a-li-yun-xu-ni-zhu-ji-pei-zhi-ssl-zheng-shu/img204.png"></p>
 <p>11、最后进行域名解析，配置CNAME。进入域名管理页，进行域名解析–添加解析。<br>另外在解析之前，我们要删除之前的A类型www解析记录，否则会发生冲突，导致解析失败。</p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2020/07/QQ%E6%88%AA%E5%9B%BE20200701195001.png"></p>
-<p>12、记录类型选择CNAME，记录值填CDN加速域名的CNAME值。解析完成后，回到CDN控制台，可以看到各项配置已完成。当然HTTPS访问不会立即生效，需等待10分钟左右即可。<img src="https://www.coolku.cc/wp-content/uploads/2020/07/QQ%E6%88%AA%E5%9B%BE20200701220339.png"></p>
-<p><img src="https://www.coolku.cc/wp-content/uploads/2020/07/QQ%E6%88%AA%E5%9B%BE20200706103844.png"></p>
+<p><img src="/2021/03/15/a-li-yun-xu-ni-zhu-ji-pei-zhi-ssl-zheng-shu/img205.png"></p>
+<p>12、记录类型选择CNAME，记录值填CDN加速域名的CNAME值。解析完成后，回到CDN控制台，可以看到各项配置已完成。当然HTTPS访问不会立即生效，需等待10分钟左右即可。</p>
+<p><img src="/2021/03/15/a-li-yun-xu-ni-zhu-ji-pei-zhi-ssl-zheng-shu/img206.png"></p>
 
                 
             </div>
@@ -859,10 +859,10 @@
                         <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
                     </ul>
                     <div id="alipay">
-                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="/medias/reward/das.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                     <div id="wechat">
-                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                        <img src="/medias/reward/das.jpg" class="reward-img" alt="微信打赏二维码">
                     </div>
                 </div>
             </div>
@@ -1547,7 +1547,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">57.2k</span>&nbsp;字
+                class="white-color">56.7k</span>&nbsp;字
             
             
             
@@ -1646,7 +1646,7 @@
             <span class="badge-subject">PV</span><span class="badge-value bg-brightgreen" id="busuanzi_value_site_pv"></span>
           </div>
           <div class="github-badge">
-            <span class="badge-subject">WordCount</span><span class="badge-value bg-blueviolet">57.2k</span>
+            <span class="badge-subject">WordCount</span><span class="badge-value bg-blueviolet">56.7k</span>
           </div>
 </div-->
 <style>

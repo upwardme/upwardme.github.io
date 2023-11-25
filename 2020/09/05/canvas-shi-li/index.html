@@ -604,7 +604,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2023-11-21
+                    2023-11-25
                 </div>
                 
 
@@ -639,7 +639,7 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <p>效果图：</p>
-<p><img src="http://www.coolku.cc/wp-content/uploads/2020/06/QQ%E6%88%AA%E5%9B%BE20200623231325.png"></p>
+<p><img src="/2020/09/05/canvas-shi-li/img225.png"></p>
 <figure class="highlight html"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">    <span class="comment">&lt;!--body中加入onload="draw('canvas');"--&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h1</span>&gt;</span>canvas元素实例<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">canvas</span> <span class="attr">id</span>=<span class="string">"canvas"</span> <span class="attr">width</span>=<span class="string">"400"</span> <span class="attr">height</span>=<span class="string">"300"</span>&gt;</span><span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure>
 
 <figure class="highlight javascript"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">draw</span>(<span class="params">id</span>){</span><br><span class="line"><span class="keyword">var</span> canvas=<span class="variable language_">document</span>.<span class="title function_">getElementById</span>(id);</span><br><span class="line"><span class="keyword">if</span>(canvas==<span class="literal">null</span>)</span><br><span class="line"><span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line"><span class="keyword">var</span> context=canvas.<span class="title function_">getContext</span>(<span class="string">'2d'</span>);</span><br><span class="line">context.<span class="property">fillStyle</span>=<span class="string">"#EEEEFF"</span>;</span><br><span class="line">context.<span class="title function_">fillRect</span>(<span class="number">0</span>,<span class="number">0</span>,<span class="number">400</span>,<span class="number">300</span>);</span><br><span class="line"><span class="comment">/*context.fillStyle="red";</span></span><br><span class="line"><span class="comment">context.strokeStyle="blue";</span></span><br><span class="line"><span class="comment">context.lineWidth=1;</span></span><br><span class="line"><span class="comment">context.fillRect(50,50,100,100);</span></span><br><span class="line"><span class="comment">context.strokeRect(50,50,100,100);*/</span><span class="comment">//注释部分为矩形</span></span><br><span class="line"><span class="keyword">var</span> n=<span class="number">0</span>;<span class="comment">//圆形</span></span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">var</span> i=<span class="number">0</span>;i&lt;<span class="number">10</span>;i++){</span><br><span class="line">context.<span class="title function_">beginPath</span>();</span><br><span class="line">context.<span class="title function_">arc</span>(i*<span class="number">25</span>,i*<span class="number">25</span>,i*<span class="number">10</span>,<span class="number">0</span>,<span class="title class_">Math</span>.<span class="property">PI</span>*<span class="number">2</span>,<span class="literal">true</span>);</span><br><span class="line">context.<span class="title function_">closePath</span>();</span><br><span class="line">context.<span class="property">fillStyle</span>=<span class="string">'rgba(255,0,0,0.25)'</span>;</span><br><span class="line">context.<span class="title function_">fill</span>();</span><br><span class="line">}</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
@@ -837,10 +837,10 @@
                         <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
                     </ul>
                     <div id="alipay">
-                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="/medias/reward/das.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                     <div id="wechat">
-                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                        <img src="/medias/reward/das.jpg" class="reward-img" alt="微信打赏二维码">
                     </div>
                 </div>
             </div>
@@ -1525,7 +1525,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">57.2k</span>&nbsp;字
+                class="white-color">56.7k</span>&nbsp;字
             
             
             
@@ -1624,7 +1624,7 @@
             <span class="badge-subject">PV</span><span class="badge-value bg-brightgreen" id="busuanzi_value_site_pv"></span>
           </div>
           <div class="github-badge">
-            <span class="badge-subject">WordCount</span><span class="badge-value bg-blueviolet">57.2k</span>
+            <span class="badge-subject">WordCount</span><span class="badge-value bg-blueviolet">56.7k</span>
           </div>
 </div-->
 <style>
