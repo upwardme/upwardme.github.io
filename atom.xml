@@ -6,7 +6,7 @@
   <link href="https://www.coolku.cc/atom.xml" rel="self"/>
   
   <link href="https://www.coolku.cc/"/>
-  <updated>2023-11-25T13:37:03.951Z</updated>
+  <updated>2023-11-29T12:07:55.731Z</updated>
   <id>https://www.coolku.cc/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>随笔</title>
+    <link href="https://www.coolku.cc/2023/11/29/article7/"/>
+    <id>https://www.coolku.cc/2023/11/29/article7/</id>
+    <published>2023-11-29T12:04:19.000Z</published>
+    <updated>2023-11-29T12:07:55.731Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;你有多久没有写博客了，我有很久了，有时候似乎已经不知道该写点什么。&lt;/p&gt;
+&lt;p&gt;一个个访问友链的地址，要么打不开，要么超一年甚至更久没有更新。不单是我的友链，包括随机从一个链接跳到另一个链接，大都是如此。但是那些还能打开的地址，我觉得他们都还保持着那份热爱，至少我是如此。</summary>
+        
+      
+    
+    
+    
+    <category term="文章" scheme="https://www.coolku.cc/categories/%E6%96%87%E7%AB%A0/"/>
+    
+    
+    <category term="随笔" scheme="https://www.coolku.cc/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>微星主板故障灯</title>
@@ -552,31 +578,6 @@
     
     
     <category term="Nextcloud" scheme="https://www.coolku.cc/tags/Nextcloud/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Doki Doki Literature Club汉化包</title>
-    <link href="https://www.coolku.cc/2022/10/15/doki-doki-literature-club-han-hua-bao/"/>
-    <id>https://www.coolku.cc/2022/10/15/doki-doki-literature-club-han-hua-bao/</id>
-    <published>2022-10-15T00:58:00.000Z</published>
-    <updated>2023-11-25T07:07:54.402Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;Doki Doki Literature</summary>
-        
-      
-    
-    
-    
-    <category term="兴趣" scheme="https://www.coolku.cc/categories/%E5%85%B4%E8%B6%A3/"/>
-    
-    
-    <category term="Steam" scheme="https://www.coolku.cc/tags/Steam/"/>
     
   </entry>
   
