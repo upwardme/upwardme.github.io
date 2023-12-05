@@ -6,7 +6,7 @@
   <link href="https://www.coolku.cc/atom.xml" rel="self"/>
   
   <link href="https://www.coolku.cc/"/>
-  <updated>2023-11-29T12:07:55.731Z</updated>
+  <updated>2023-12-05T10:14:46.927Z</updated>
   <id>https://www.coolku.cc/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>网站重定向过多</title>
+    <link href="https://www.coolku.cc/2023/11/29/article8/"/>
+    <id>https://www.coolku.cc/2023/11/29/article8/</id>
+    <published>2023-11-29T14:47:02.000Z</published>
+    <updated>2023-12-05T10:14:46.927Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;重定向&quot;&gt;&lt;a href=&quot;#重定向&quot; class=&quot;headerlink&quot; title=&quot;重定向&quot;&gt;&lt;/a&gt;重定向&lt;/h2&gt;&lt;p&gt;暂无内容…&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="实践" scheme="https://www.coolku.cc/categories/%E5%AE%9E%E8%B7%B5/"/>
+    
+    
+    <category term="重定向" scheme="https://www.coolku.cc/tags/%E9%87%8D%E5%AE%9A%E5%90%91/"/>
+    
+  </entry>
   
   <entry>
     <title>随笔</title>
@@ -47,7 +73,7 @@
     <link href="https://www.coolku.cc/2023/11/24/article6/"/>
     <id>https://www.coolku.cc/2023/11/24/article6/</id>
     <published>2023-11-24T14:41:46.000Z</published>
-    <updated>2023-11-25T13:37:03.951Z</updated>
+    <updated>2023-11-29T14:52:51.230Z</updated>
     
     
       
@@ -60,10 +86,10 @@
     
     
     
-    <category term="文章" scheme="https://www.coolku.cc/categories/%E6%96%87%E7%AB%A0/"/>
+    <category term="实践" scheme="https://www.coolku.cc/categories/%E5%AE%9E%E8%B7%B5/"/>
     
     
-    <category term="实践" scheme="https://www.coolku.cc/tags/%E5%AE%9E%E8%B7%B5/"/>
+    <category term="微星主板" scheme="https://www.coolku.cc/tags/%E5%BE%AE%E6%98%9F%E4%B8%BB%E6%9D%BF/"/>
     
   </entry>
   
@@ -551,33 +577,6 @@
     <category term="Steam" scheme="https://www.coolku.cc/tags/Steam/"/>
     
     <category term="GTA5" scheme="https://www.coolku.cc/tags/GTA5/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Next cloud客户端使用</title>
-    <link href="https://www.coolku.cc/2022/10/30/next-cloud-ke-hu-duan-shi-yong/"/>
-    <id>https://www.coolku.cc/2022/10/30/next-cloud-ke-hu-duan-shi-yong/</id>
-    <published>2022-10-30T01:50:00.000Z</published>
-    <updated>2023-11-25T07:02:31.666Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;p&gt;前往官网选择对应操作系统进行下载&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="教程" scheme="https://www.coolku.cc/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="实践" scheme="https://www.coolku.cc/categories/%E5%AE%9E%E8%B7%B5/"/>
-    
-    
-    <category term="Nextcloud" scheme="https://www.coolku.cc/tags/Nextcloud/"/>
     
   </entry>
   
