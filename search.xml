@@ -8,7 +8,7 @@
       <link href="/2023/11/29/article8/"/>
       <url>/2023/11/29/article8/</url>
       
-        <content type="html"><![CDATA[<h2 id="重定向"><a href="#重定向" class="headerlink" title="重定向"></a>重定向</h2><p>暂无内容…</p><p><img src="/2023/11/29/article8/img332.jpg"></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="重定向"><a href="#重定向" class="headerlink" title="重定向"></a>重定向</h2><p>站点迁移至Hexo后，顺手把域名的CDN配置指向了新地址，导致访问次数过多后，就出现无法访问的问题。</p><h2 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h2><p>清除浏览器Cookie，貌似只能起一时的作用，多访问几次就又会打不开。<br>其他方法暂且没有试过，想到可能与CDN加速有关，关闭CDN之后恢复正常。</p><p><img src="/2023/11/29/article8/img332.jpg"></p>]]></content>
       
       
       <categories>
