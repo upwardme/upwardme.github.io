@@ -6,7 +6,7 @@
   <link href="https://www.coolku.cc/atom.xml" rel="self"/>
   
   <link href="https://www.coolku.cc/"/>
-  <updated>2023-12-07T15:31:24.655Z</updated>
+  <updated>2023-12-09T13:10:02.492Z</updated>
   <id>https://www.coolku.cc/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Valine邮件提醒设置</title>
+    <link href="https://www.coolku.cc/2023/12/08/article9/"/>
+    <id>https://www.coolku.cc/2023/12/08/article9/</id>
+    <published>2023-12-08T05:01:12.000Z</published>
+    <updated>2023-12-09T13:10:02.492Z</updated>
+    
+    
+    
+    
+    <category term="实践" scheme="https://www.coolku.cc/categories/%E5%AE%9E%E8%B7%B5/"/>
+    
+    
+    <category term="Valine" scheme="https://www.coolku.cc/tags/Valine/"/>
+    
+    <category term="邮件提醒" scheme="https://www.coolku.cc/tags/%E9%82%AE%E4%BB%B6%E6%8F%90%E9%86%92/"/>
+    
+  </entry>
   
   <entry>
     <title>网站重定向过多</title>
@@ -550,33 +569,6 @@
     <category term="Microsoft Edge" scheme="https://www.coolku.cc/tags/Microsoft-Edge/"/>
     
     <category term="安卓平板" scheme="https://www.coolku.cc/tags/%E5%AE%89%E5%8D%93%E5%B9%B3%E6%9D%BF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GTA5中手办与扑克牌收集详细位置</title>
-    <link href="https://www.coolku.cc/2022/10/31/gta5-zhong-shou-ban-yu-bu-ke-pai-shou-ji-xiang-xi-wei-zhi/"/>
-    <id>https://www.coolku.cc/2022/10/31/gta5-zhong-shou-ban-yu-bu-ke-pai-shou-ji-xiang-xi-wei-zhi/</id>
-    <published>2022-10-31T05:12:40.000Z</published>
-    <updated>2023-11-21T15:54:04.675Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;手办&quot;&gt;&lt;a href=&quot;#手办&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="游戏" scheme="https://www.coolku.cc/categories/%E6%B8%B8%E6%88%8F/"/>
-    
-    
-    <category term="Steam" scheme="https://www.coolku.cc/tags/Steam/"/>
-    
-    <category term="GTA5" scheme="https://www.coolku.cc/tags/GTA5/"/>
     
   </entry>
   
