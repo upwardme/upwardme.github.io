@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>Valine邮件提醒设置</title>
+      <title>Waline评论系统</title>
       <link href="/2023/12/08/article9/"/>
       <url>/2023/12/08/article9/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>自从把站点搬到Hexo后发现原有的评论系统Valine早已经不再进行邮件通知了，导致有时候错过别人的评论（虽然没人给我评论），给别人也没法回复。<br>官方给出了第三方弥补措施，可我在第一步部署上就过不去，网上最新的文章都两年前了。因为之前是注册的国内版，后边的其他设置也不一定过得去，另外Valine还有安全性问题。<br>其他的主流系统，不是要备案就是要登录，增加了评论门槛，无形中会损失一些游客的留言，最后发现了Waline感觉不错，就重新换了系统。<br>Waline官方地址<a href="https://waline.js.org/">https://waline.js.org/</a></p><h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><blockquote><p>注册LeanCloud</p></blockquote><p>首先注册或登录LeanCloud 国际版，<a href="https://console.leancloud.app/register">https://console.leancloud.app/register</a><br>点击创建应用，选择免费的开发版，名字随便起。</p><p><img src="/2023/12/08/article9/img333.png"></p><p>创建完成点击设置，在设置中找到应用凭证，可以看到你的APP ID、APP Key、Master Key，待会要用到。</p><p><img src="/2023/12/08/article9/img334.png"></p><blockquote><p>Server端部署</p></blockquote><p>点击按钮跳转至Vercel进行Server端部署<a href="https://vercel.com/new/clone?repository-url=https://github.com/walinejs/waline/tree/main/example">https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwalinejs%2Fwaline%2Ftree%2Fmain%2Fexample</a></p><p><img src="/2023/12/08/article9/img335.png"></p><p>请使用GitHub账户来进行快捷登录</p><p><img src="/2023/12/08/article9/img336.png"></p><p>登录完成之后，输入一个项目名称，点击Create继续，Vercel会新建仓库。</p><p><img src="/2023/12/08/article9/img337.png"><br><img src="/2023/12/08/article9/img338.png"><br><img src="/2023/12/08/article9/img339.png"></p><blockquote><p>环境配置</p></blockquote><p>接着点击顶部Settings-Environment Variables进行环境配置，并配置三个环境变量LEAN_ID, LEAN_KEY和LEAN_MASTER_KEY，也就是刚才在LeanCloud设置中看到的，在下边的配置中进行一一对应。</p><p><img src="/2023/12/08/article9/img340.png"></p><blockquote><p>邮件提醒配置</p></blockquote><p>在环境变量这块可以顺带把邮件提醒配置一块设置</p><p>SMTP_SERVICE: SMTP 邮件发送服务提供商。<br>SMTP_USER: SMTP 邮件发送服务的用户名，一般为登录邮箱。<br>SMTP_PASS: SMTP 邮件发送服务的密码，<code>QQ邮箱是授权码</code><br>SITE_NAME: 网站名称，用于在消息中显示。<br>SITE_URL: 网站地址，用于在消息中显示。<br>AUTHOR_EMAIL: 博主邮箱，用来接收新评论通知。如果是博主发布的评论则不进行提醒通知。</p><p>以下是选填的环境变量:</p><p>SENDER_NAME: 自定义发送邮件的发件人<br>SENDER_EMAIL: 自定义发送邮件的发件地址<br>MAIL_SUBJECT: 自定义评论回复邮件标题<br>MAIL_TEMPLATE: 自定义评论回复邮件内容<br>MAIL_SUBJECT_ADMIN: 自定义新评论通知邮件标题<br>MAIL_TEMPLATE_ADMIN: 自定义新评论通知邮件内容</p><blockquote><p>部署</p></blockquote><p>环境变量配置完成之后点击顶部的Deployments，点击Redeploy按钮进行重新部署。</p><p><img src="/2023/12/08/article9/img341.png"></p><p>此时会跳转到Overview界面开始部署，等待片刻后STATUS会变成Ready。此时请点击Visit，即可跳转到部署好的网站地址，此地址即为你的服务端地址。</p><p><img src="/2023/12/08/article9/img342.png"><br><img src="/2023/12/08/article9/img343.png"><br><img src="/2023/12/08/article9/img344.png"></p><blockquote><p>域名配置</p></blockquote><p>再次点击顶部的Settings - Domains进入域名配置页</p><p><img src="/2023/12/08/article9/img345.png"></p><p>输入需要绑定的域名并点击Add，例如waline.你的域名.com。</p><p>然后在域名服务器商处添加新的CNAME解析记录，解析地址cname.vercel-dns.com。</p><p><img src="/2023/12/08/article9/img346.png"></p><p>解析完后会打对号，就可以通过自己的域名来访问评论系统了。</p><p><img src="/2023/12/08/article9/img347.png"></p><p>评论系统：example.yourdomain.com<br>评论管理：example.yourdomain.com/ui</p><h2 id="管理"><a href="#管理" class="headerlink" title="管理"></a>管理</h2><p>输入你的评论管理地址进行注册，第一个注册的用户会被定义为管理员。</p><p><img src="/2023/12/08/article9/img349.png"></p><p>注册完后就可以登录管理邮件了</p><p><img src="/2023/12/08/article9/img348.png"><br><img src="/2023/12/08/article9/img350.png"></p><blockquote><p>应用</p></blockquote><p>全部完成后就是应用到网站中，个人主题不同请参考自己主题的文档，我是直接修改了其他不用的评论系统文件。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>Waline在配置上要比Valine方便，另外LeanCloud注册的时候一定要选国际，因为国内有很多限制（实名、备案）。</p>]]></content>
       
       
       <categories>
@@ -23,6 +23,8 @@
             <tag> Valine </tag>
             
             <tag> 邮件提醒 </tag>
+            
+            <tag> Waline </tag>
             
         </tags>
       

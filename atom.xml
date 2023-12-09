@@ -6,7 +6,7 @@
   <link href="https://www.coolku.cc/atom.xml" rel="self"/>
   
   <link href="https://www.coolku.cc/"/>
-  <updated>2023-12-09T13:10:02.492Z</updated>
+  <updated>2023-12-09T17:30:01.121Z</updated>
   <id>https://www.coolku.cc/</id>
   
   <author>
@@ -17,12 +17,20 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Valine邮件提醒设置</title>
+    <title>Waline评论系统</title>
     <link href="https://www.coolku.cc/2023/12/08/article9/"/>
     <id>https://www.coolku.cc/2023/12/08/article9/</id>
     <published>2023-12-08T05:01:12.000Z</published>
-    <updated>2023-12-09T13:10:02.492Z</updated>
+    <updated>2023-12-09T17:30:01.121Z</updated>
     
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
     
     
     
@@ -32,6 +40,8 @@
     <category term="Valine" scheme="https://www.coolku.cc/tags/Valine/"/>
     
     <category term="邮件提醒" scheme="https://www.coolku.cc/tags/%E9%82%AE%E4%BB%B6%E6%8F%90%E9%86%92/"/>
+    
+    <category term="Waline" scheme="https://www.coolku.cc/tags/Waline/"/>
     
   </entry>
   
