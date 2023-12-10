@@ -6,7 +6,7 @@
   <link href="https://www.coolku.cc/atom.xml" rel="self"/>
   
   <link href="https://www.coolku.cc/"/>
-  <updated>2023-12-09T17:30:01.121Z</updated>
+  <updated>2023-12-10T11:37:39.799Z</updated>
   <id>https://www.coolku.cc/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>GTA6</title>
+    <link href="https://www.coolku.cc/2023/12/10/article10/"/>
+    <id>https://www.coolku.cc/2023/12/10/article10/</id>
+    <published>2023-12-10T10:55:57.000Z</published>
+    <updated>2023-12-10T11:37:39.799Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;十年磨一剑，GTA6这次真的来了，12月5日R星发布了GTA6的首支预告片，将于2025年首发登录PS5。&lt;br&gt;按之前GTA5和大表哥2的发售来看，登录PC至少2026年以后了。&lt;/p&gt;
+
+&lt;div style=&quot;position: relative; width:</summary>
+        
+      
+    
+    
+    
+    <category term="兴趣" scheme="https://www.coolku.cc/categories/%E5%85%B4%E8%B6%A3/"/>
+    
+    
+    <category term="GTA6" scheme="https://www.coolku.cc/tags/GTA6/"/>
+    
+    <category term="Rockstar" scheme="https://www.coolku.cc/tags/Rockstar/"/>
+    
+  </entry>
   
   <entry>
     <title>Waline评论系统</title>
@@ -551,34 +580,6 @@
     
     
     <category term="Nextcloud" scheme="https://www.coolku.cc/tags/Nextcloud/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>安卓平板浏览器设置</title>
-    <link href="https://www.coolku.cc/2022/11/04/an-zhuo-ping-ban-liu-lan-qi-she-zhi/"/>
-    <id>https://www.coolku.cc/2022/11/04/an-zhuo-ping-ban-liu-lan-qi-she-zhi/</id>
-    <published>2022-11-03T22:02:41.000Z</published>
-    <updated>2023-11-25T07:05:51.125Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;前段时间买了个安卓平板，外观性能方面还可以，就是这安卓平板生态着实让人难受，完全就是个放大版的手机嘛，这点与iPad差距还是挺大的。&lt;/p&gt;
-&lt;p&gt;既然软件APP方面不行，我就使用网页版，但发现不管横竖屏，依旧会显示手机版，删掉地址栏前的“ m.</summary>
-        
-      
-    
-    
-    
-    <category term="实践" scheme="https://www.coolku.cc/categories/%E5%AE%9E%E8%B7%B5/"/>
-    
-    
-    <category term="Microsoft Edge" scheme="https://www.coolku.cc/tags/Microsoft-Edge/"/>
-    
-    <category term="安卓平板" scheme="https://www.coolku.cc/tags/%E5%AE%89%E5%8D%93%E5%B9%B3%E6%9D%BF/"/>
     
   </entry>
   
